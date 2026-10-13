@@ -1,0 +1,7 @@
+[DESIGN]
+max-locals=20
+
+[SIMILARITIES]
+
+ignore-docstrings=yes
+min-similarity-lines=10
