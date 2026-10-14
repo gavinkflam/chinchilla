@@ -16,8 +16,9 @@
 import math
 
 
-def run(nums: list[int]) -> int:
-    """Run the solution."""
+def solve(nums: list[int]) -> int:
+    """Solve the problem."""
+
     n = len(nums)
     dp = [0]
 

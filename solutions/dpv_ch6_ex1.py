@@ -18,8 +18,9 @@
 """
 
 
-def run(nums: list[int]) -> int:
-    """Run the solution."""
+def solve(nums: list[int]) -> int:
+    """Solve the problem."""
+
     max_sum, current_sum = nums[0], 0
 
     for num in nums:

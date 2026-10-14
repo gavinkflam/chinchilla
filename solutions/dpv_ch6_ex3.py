@@ -16,8 +16,9 @@
 """
 
 
-def run(locations: list[int], profits: list[int], k: int) -> int:
-    """Run the solution."""
+def solve(locations: list[int], profits: list[int], k: int) -> int:
+    """Solve the problem."""
+
     n = len(locations)
     dp = [0] * (n + 1)
     dp[0], lo = profits[0], -1
